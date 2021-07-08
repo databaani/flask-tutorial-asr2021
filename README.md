@@ -5,9 +5,9 @@ Flask is web application framework written in Python. We can develop API for ML
 
 ## Installation
 Check Python version
-python --version
-pip --version
-python3.x -m pip install flask
+`python --version`
+`pip --version`
+`python3.x -m pip install flask`
 
 HTTP Methods
 - Get
