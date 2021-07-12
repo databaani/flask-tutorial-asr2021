@@ -1,11 +1,26 @@
-# flask-tutorial-asr2021
+# Flask Tutorial
 
-## Flask 
-[Flask](https://flask.palletsprojects.com/en/2.0.x/) is web application framework written in Python. It gives all the functionallity for implemeting a web applications. We can develop Application Programming Interface (API) for ML using the Flask. And we can do inference through browser.Your users will need to access your data in real time, such as for display on another website or as part of an application.
+## What is Flask?
 
-## Related terminology
-- HTTP (Hypertext Transfer Protocol) is the protocol for commnuicating with the API. Two important methods used to interact with the API are GET, which pulls data from a server, and POST, which pushes new data to a server.
-- URL (Uniform Resource Locator) - An address for a resource on the web, such as https://programminghistorian.org/about. A URL consists of a protocol (http://), domain (programminghistorian.org), and optional path (/about). A URL describes the location of a specific resource, such as a web page.
+- Flask is a web application framework written in Python. 
+- It Manages HTTP requests and rendering HTML templates. 
+- It gives all the functionality for implementing a web applications. 
+- You can use Flask to deploy a ML model into production.
+- It has Jinja template engine to dynamically build HTML pages using familiar Python concepts such as variables, loops, lists, and so on. 
+
+## What is a web application?
+A web application (or web app) is application software that runs on a web server.
+It allows for information or functionality to be manipulated by other programs via the internet.
+
+## Basic terminology:
+- HTTP (Hypertext Transfer Protocol) is the primary means of communicating data on the web. 
+Methods: GET, which pulls data from a server, and POST, which pushes new data to a server.
+URL (Uniform Resource Locator) - An address for a resource on the web, such as https://realpython.com/python-web-applications/. 
+A URL consists of a protocol (https://), domain (realpython.com), and optional path (/python-web-applications/).
+This is my request - https://realpython.com/python-web-applications/ [base URL + path]
+- If we want search for a query/data - 
+https://www.youtube.com/watch?v=8yFVBuGcOe8
+The query parameters follow the ? in the request
 
 ## Installation
 ```python
@@ -14,12 +29,10 @@ pip --version
 python3.x -m pip install flask
 ```
 
-HTTP Methods
-- Get
-  - get data from server. to send data from the application to the user
-- POST
-  - create data. to receive data from a user
-- PUT
-- DELETE
 
-Links: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+Resources:
+- https://flask.palletsprojects.com/en/2.0.x/
+- https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+- https://coddyschool.com/upload/Flask_Web_Development_Developing.pdf
+- https://riptutorial.com/Download/flask.pdf
+- https://www.fullstackpython.com/flask.html
