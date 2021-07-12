@@ -14,13 +14,13 @@ It allows for information or functionality to be manipulated by other programs v
 
 ## Basic terminology:
 - HTTP (Hypertext Transfer Protocol) is the primary means of communicating data on the web. 
-  - Methods: GET, which pulls data from a server, and POST, which pushes new data to a server.
-  - URL (Uniform Resource Locator) - An address for a resource on the web, such as https://realpython.com/python-web-applications/. 
-  - A URL consists of a protocol (https://), domain (realpython.com), and optional path (/python-web-applications/).
-  - This is my request - https://realpython.com/python-web-applications/ [base URL + path]
+  - Methods: ```GET```, which pulls data from a server, and ```POST```, which pushes new data to a server.
+  - URL (Uniform Resource Locator) - An address for a resource on the web, such as ```https://realpython.com/python-web-applications/```. 
+  - A URL consists of a protocol (```https://```), domain (```realpython.com```), and optional path (```/python-web-applications/```).
+  - This is my request - ```https://realpython.com/python-web-applications/``` [base URL + path]
 - If we want search for a query/data - 
-  - https://www.youtube.com/watch?v=8yFVBuGcOe8
-  - The query parameters follow the ? in the request
+  - ```https://www.youtube.com/watch?v=8yFVBuGcOe8```
+  - The query parameters follow the ```?``` in the request
 
 ## Installation
 ```python
